@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/f69d9cde7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: fixed;
+        bottom: -30px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section id="launch-container" class="launch-container">
+      <div class="section-content">
+        <div class="logo-container">
+          <img src="./images/logo.svg" alt="logo" class="logo" />
+        </div>
+        <h1 class="section-heading"><span>We are launching</span> soon!</h1>
+        <p>Subscribe and get notified</p>
+        <div id="subscribe-container" class="subscribe-container">
+          <input
+            type="text"
+            id="email"
+            placeholder="Your email address..."
+            class="email"
+          />
+          <span class="toast-msg hidden" id="invalid-toast ">
+            <p>Please provide a valid email address</p>
+          </span>
+          <button id="notify-btn" class="btn">Notify Me</button>
+        </div>
+      </div>
+      <div class="dashboard-img">
+        <img src="./images/illustration-dashboard.png" alt="dashboard" />
+      </div>
+      <footer class="section-footer">
+        <div class="social-links">
+          <div class="social-icon">
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="social-icon">
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+          <div class="social-icon">
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </footer>
+    </section>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/mahbt">Mahbt</a>.
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
