@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Ping Coming Soon Page](https://github.com/mahbt/ping-coming-soon-page)
+- Live Site URL: [Ping Coming Soon Page]([https://github.com/mahbt/ping-coming-soon-page](https://mahbt.github.io/ping-coming-soon-page/))
 
 ## My process
 
